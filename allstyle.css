@@ -1,0 +1,306 @@
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #B8DBD0;
+    text-align: center;
+}
+
+.global_container_ {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-top: 20px;
+    background-color: #B59B7B;
+    padding: 10px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-bar {
+    width: 100%; /* Make the navigation bar full width */
+    background-color: #B59B7B;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Make the ul element full width */
+}
+
+.nav-bar li {
+    margin-right: 20px;
+    flex-grow: 1; /* Make each li element equal width */
+    text-align: center; /* Center the text within each li element */
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #4169e1;
+    color: #0073e6;
+    transition: color 0.2s ease;
+    width: 100%; /* Make the a element full width */
+    display: block; /* Make the a element a block element */
+}
+
+.nav-bar a:hover {
+    color: #0099ff;
+}
+
+.main-content-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Personal Info Page Styles */
+
+#personal-info {
+    margin-bottom: 20px;
+}
+
+#personal-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#personal-info li {
+    margin-bottom: 10px;
+}
+
+#personal-info strong {
+    font-weight: bold;
+    color: #6B635C;
+}
+
+#hobbies {
+    margin-top: 20px;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#hobbies li {
+    margin-bottom: 10px;
+}
+
+/* Achievements Page Styles */
+
+#achievements {
+    margin-bottom: 20px;
+}
+
+#achievements ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#achievements li {
+    margin-bottom: 10px;
+}
+
+#achievements strong {
+    font-weight: bold;
+    color: #6B635C;
+}
+
+#certifications {
+    margin-top: 20px;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#certifications li {
+    margin-bottom: 10px;
+}
+#certifications strong {
+    color: #6B635C;
+}
+/* About Me Page Styles */
+
+#about-me {
+    margin-bottom: 20px;
+}
+#about-me h2 {
+    color: #6B635C;
+}
+/* Education Page Styles */
+
+#education {
+    margin-bottom: 20px;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#education li {
+    margin-bottom: 10px;
+}
+
+#education strong {
+    font-weight: bold;
+    color: #89B2B9;
+}
+#education img {
+    width: 300px;
+    height: 300px;
+}
+/* Footer Styles */
+
+.footer {
+    margin-top: 50px;
+    background-color: #B59B7B;
+    padding: 10px;
+    text-align: center;
+    color: #4169e1;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* About Me Page Styles */
+
+#about-me {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  #about-me img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 20px auto;
+  }
+  #about-me p {
+      color:black;
+  }
+  /* Education Page Styles */
+  
+  #education {
+    margin-top: 40px;
+  }
+  
+  #education ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #education li {
+    margin-bottom: 20px;
+  }
+  
+  #education h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #education p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #B8DBD0;
+    text-align: center;
+}
+.global_container_ {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.header {
+    margin-top: 20px;
+}
+.header h1 {
+    font-size: 36px;
+    color: white;
+}
+.header h2 {
+    font-size: 20px;
+    color: white;
+}
+.nav-bar {
+    margin: 20px 0;
+    background-color: #947A66;
+    padding: 10px 0;
+}
+.nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar li {
+    display: inline;
+}
+.nav-bar a {
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #947A66;
+    color: white;
+}
+.main-content-wrapper {
+    margin-top: 50px;
+}
+.profile-photo {
+    border: 10px solid #6B635C;
+    outline: 5px solid #89B2B9;
+    display: inline-flex;
+    padding: 0px;
+}
+.profile-photo img {
+    width: 400px;
+    height: 500px;
+}
+.footer {
+    margin-top: 20px;
+}
+.footer p {
+    font-size: 20px;
+    color: #333;
+    margin: 20px auto;
+    max-width: 60%;
+}
